@@ -64,7 +64,15 @@ Copyright 2022 Radware – All Rights Reserved
 [Apache2.0](https://choosealicense.com/licenses/apache-2.0/)
 
 ## Tool Snapshot
-![](https://i.imgur.com/gCW3gzx.png)
+![](https://i.imgur.com/sdleJE2.png)
+
+![](https://i.imgur.com/UhGE8ZP.png)
+
+![](https://i.imgur.com/GPPhWRP.png)
+
+![](https://i.imgur.com/2pzNikf.png)
+
+![](https://i.imgur.com/lmhuBMm.png)
 
 ## Disclaimer
 There is no warranty, expressed or implied, associated with this product.
