@@ -2,10 +2,6 @@
 
 Large scale upgrade tool for Alteon VA instances.
 
-## Installation
-
-Download the release version of this project and upload to vDirect.
-
 ## Important Information
     -   The image upload is done via SCP and may take some time,
      it is recommended to use the dedicated function 'Upload Image Alteon' to upload the images beforehand.
@@ -18,7 +14,8 @@ Download the release version of this project and upload to vDirect.
 ## Prerequisite & Limitations
 
 1. Supported in a wizard mode via UI, API is available upon all inputs.
-2. Upgrade is running sequentially, upon failure of single device it will halt next in line devices. 
+2. Upgrade is running sequentially, upon failure of single device it will halt next in line devices.
+3. Supported on vDirect standalone or Vision integrated.
 
 ## General Information
 
@@ -50,7 +47,7 @@ Download the release version of this project and upload to vDirect.
 3. Clear Adc Health State -
     * Clears vDirect DB for previous upgrade Alteon state snippet.
 4. Verify Servers Health (It is recommended to run it after some time, to allow server health check to pass) -
-    * Provides HTML table if anything changed after upgrade.
+    * Provides HTML table upon change in real server per virtual service.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
@@ -75,5 +72,4 @@ Copyright 2022 Radware – All Rights Reserved
 ![](https://i.imgur.com/lmhuBMm.png)
 
 ## Disclaimer
-There is no warranty, expressed or implied, associated with this product.
-Use at your own risk.
+The script is not supported by Radware TAC, for any issues please contact Radware Professional Services.
