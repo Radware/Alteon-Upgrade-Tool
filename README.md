@@ -16,6 +16,7 @@ Large scale upgrade tool for Alteon VA instances.
 1. Supported in a wizard mode via UI, API is available upon all inputs.
 2. Upgrade is running sequentially, upon failure of single device it will halt next in line devices.
 3. Supported on vDirect standalone or Vision integrated.
+4. Executed on standby\passive devices only.
 
 ## General Information
 
